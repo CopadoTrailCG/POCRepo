@@ -2,7 +2,8 @@ public class ContactAutomations {
 	 Public static Contact setDefaultDescription(Contact c){
         If (c.Description != null) return c;
         Else {
-            c.Description = 'Contact description';
+
+            c.Description = 'Default description';
             return c;
         }
     }
@@ -10,4 +11,5 @@ public class ContactAutomations {
         c.Department = 'Test Department';
         return c;
     }
+
 }
