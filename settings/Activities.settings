@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ActivitiesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
-    <allowUsersToRelateMultipleContactsToTasksAndEvents>false</allowUsersToRelateMultipleContactsToTasksAndEvents>
+    <allowUsersToRelateMultipleContactsToTasksAndEvents>true</allowUsersToRelateMultipleContactsToTasksAndEvents>
     <autoRelateEventAttendees>false</autoRelateEventAttendees>
     <enableActivityReminders>true</enableActivityReminders>
     <enableClickCreateEvents>false</enableClickCreateEvents>
     <enableDragAndDropScheduling>true</enableDragAndDropScheduling>
     <enableEmailTracking>true</enableEmailTracking>
+    <enableFlowTaskNotifsViaApex>false</enableFlowTaskNotifsViaApex>
     <enableGroupTasks>true</enableGroupTasks>
     <enableHideChildEventsPreference>false</enableHideChildEventsPreference>
     <enableListViewScheduling>false</enableListViewScheduling>
@@ -18,7 +19,7 @@
     <enableSidebarCalendarShortcut>false</enableSidebarCalendarShortcut>
     <enableSimpleTaskCreateUI>true</enableSimpleTaskCreateUI>
     <enableUNSTaskDelegatedToNotifications>true</enableUNSTaskDelegatedToNotifications>
-    <enableUserListViewCalendars>false</enableUserListViewCalendars>
+    <enableUserListViewCalendars>true</enableUserListViewCalendars>
     <showCustomLogoMeetingRequests>false</showCustomLogoMeetingRequests>
     <showEventDetailsMultiUserCalendar>false</showEventDetailsMultiUserCalendar>
     <showHomePageHoverLinksForEvents>true</showHomePageHoverLinksForEvents>

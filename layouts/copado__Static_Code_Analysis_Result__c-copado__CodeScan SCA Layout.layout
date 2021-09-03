@@ -182,8 +182,8 @@
         <fields>copado__Severity__c</fields>
         <fields>copado__Resolution__c</fields>
         <fields>copado__Status__c</fields>
-        <fields>copado__Message__c</fields>
-        <fields>CREATED_DATE</fields>
+        <fields>copado__Priority__c</fields>
+        <fields>copado__Score__c</fields>
         <relatedList>copado__Static_Code_Analysis_Violation__c.copado__Static_Code_Analysis_Result__c</relatedList>
         <sortField>copado__File__c</sortField>
         <sortOrder>Asc</sortOrder>
@@ -194,7 +194,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0X00000XDPIu</masterLabel>
+        <masterLabel>00h5Y00000L2YTP</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

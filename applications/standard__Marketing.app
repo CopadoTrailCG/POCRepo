@@ -14,5 +14,6 @@
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>standard-Quote</tabs>
     <uiType>Aloha</uiType>
 </CustomApplication>

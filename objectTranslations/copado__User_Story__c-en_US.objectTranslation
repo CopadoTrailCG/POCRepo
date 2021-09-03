@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldSets>
+        <label><!-- Bundle --></label>
+        <name>copado__Bundle</name>
+    </fieldSets>
+    <fieldSets>
         <label><!-- CBM Fields --></label>
         <name>copado__CBM_Fields</name>
     </fieldSets>
@@ -209,9 +213,17 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Git Repository --></label>
+        <name>copado__Git_Repository__c</name>
+    </fields>
+    <fields>
         <help><!-- Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story. --></help>
         <label><!-- Has Apex Code --></label>
         <name>copado__Has_Apex_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Bundle --></label>
+        <name>copado__Is_Bundle__c</name>
     </fields>
     <fields>
         <help><!-- Latest Compliance Scan execution date. --></help>
@@ -595,9 +607,9 @@
     </fields>
     <fields>
         <help><!-- Org Credential used to add or commit metadata and to promote and deploy the User Story to the next Environment. --></help>
-        <label><!-- Org Credential --></label>
+        <label><!-- Credential --></label>
         <name>copado__Org_Credential__c</name>
-        <relationshipLabel><!-- User Stories (Org Credential) --></relationshipLabel>
+        <relationshipLabel><!-- User Stories (Credential) --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Parent Epic Title --></label>
@@ -797,6 +809,18 @@
         <label><!-- So that... --></label>
         <name>copado__userStory_reason__c</name>
     </fields>
+    <fields>
+        <label><!-- Enable Logs --></label>
+        <name>copadoccmint__Enable_Logs__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>copadoccmint__External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- JIRA key --></label>
+        <name>copadoccmint__JIRA_key__c</name>
+    </fields>
     <recordTypes>
         <label><!-- Bug --></label>
         <name>copado__Bug</name>
@@ -808,6 +832,10 @@
     <recordTypes>
         <label><!-- User Story --></label>
         <name>copado__User_Story</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Utility --></label>
+        <name>copado__Utility</name>
     </recordTypes>
     <validationRules>
         <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
@@ -842,12 +870,20 @@
         <name>copado__Assign_to_Release</name>
     </webLinks>
     <webLinks>
+        <label><!-- Commit_Data --></label>
+        <name>copado__Commit_Data</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Commit_Files --></label>
         <name>copado__Commit_Files</name>
     </webLinks>
     <webLinks>
         <label><!-- Copado_DX --></label>
         <name>copado__Copado_DX</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Bundle --></label>
+        <name>copado__Create_Bundle</name>
     </webLinks>
     <webLinks>
         <label><!-- Create_Scratch_Org --></label>
@@ -868,6 +904,10 @@
     <webLinks>
         <label><!-- Mass_Add_User_Stories_Sprint --></label>
         <name>copado__Mass_Add_User_Stories_Sprint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Org --></label>
+        <name>copado__Open_Org</name>
     </webLinks>
     <webLinks>
         <label><!-- Perform_Validation --></label>

@@ -166,6 +166,12 @@
         <type>TextArea</type>
     </fields>
     <label>Metadata Group</label>
+    <listViews>
+        <fullName>All_Metadata_Group</fullName>
+        <columns>NAME</columns>
+        <filterScope>Mine</filterScope>
+        <label>All Metadata Group</label>
+    </listViews>
     <nameField>
         <label>Metadata Group Name</label>
         <type>Text</type>

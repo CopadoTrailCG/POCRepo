@@ -151,6 +151,10 @@
         <fields>copado__Org_ID__c</fields>
     </miniLayout>
     <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>copado__System_Property__c.copado__Environment__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
     </relatedLists>
     <relatedLists>
@@ -276,7 +280,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0Y000004yHlx</masterLabel>
+        <masterLabel>00h5Y00000L2YSf</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

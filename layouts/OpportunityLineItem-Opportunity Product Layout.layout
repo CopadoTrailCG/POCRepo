@@ -8,6 +8,10 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Oppty_Prod_Ext_Id__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>OpportunityId</field>
             </layoutItems>
             <layoutItems>
@@ -84,12 +88,24 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <multilineLayoutFields>Product2Id</multilineLayoutFields>
-    <multilineLayoutFields>Quantity</multilineLayoutFields>
-    <multilineLayoutFields>UnitPrice</multilineLayoutFields>
-    <multilineLayoutFields>ServiceDate</multilineLayoutFields>
-    <multilineLayoutFields>Description</multilineLayoutFields>
+    <miniLayout>
+        <fields>Oppty_Prod_Ext_Id__c</fields>
+    </miniLayout>
     <multilineLayoutFields>OpportunityId</multilineLayoutFields>
+    <multilineLayoutFields>Oppty_Prod_Ext_Id__c</multilineLayoutFields>
+    <multilineLayoutFields>Product2Id</multilineLayoutFields>
+    <multilineLayoutFields>ListPrice</multilineLayoutFields>
+    <multilineLayoutFields>Quantity</multilineLayoutFields>
+    <multilineLayoutFields>ServiceDate</multilineLayoutFields>
+    <multilineLayoutFields>UnitPrice</multilineLayoutFields>
+    <multilineLayoutFields>Description</multilineLayoutFields>
+    <relatedLists>
+        <fields>ScheduleDate</fields>
+        <fields>Revenue</fields>
+        <fields>Quantity</fields>
+        <fields>Description</fields>
+        <relatedList>RelatedScheduleList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
